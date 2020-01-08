@@ -5,37 +5,53 @@ body {
     background: lightpink;
     text-align: center;
 }
+header {
+    font-style: italic;
+    color: royalblue;
+    border: dotted;
+    margin: 20px;
+}
 li {
-    color: red;
     list-style: none;
+    font-style: italic;
 }
 
-ul {
-    display: inline;
-    margin-top: 1px;
+
+h1 {
+    text-transform: uppercase;
+    color: purple;
 }
 
 h2 {
-    text-decoration: wavy;
+    color: royalblue;
+    font-style: italic;
 }
+
+aside {
+    color: rebeccapurple;
+    font-style: italic;
+}
+
 .picture {
     border: solid;
 }
 
 .strange {
     text-align: center;
-    margin: 1px;
-}
-
-#special {
-    color: green;
-    font-size: 20px;
 
 }
 
 .cool {
-    color: purple;
+color: purple;
 }
+#author {
+    font-style: italic;
+}
+#special {
+    font-size: 20px;
+
+}
+
 
 #cool-square {
     box-sizing: border-box;
