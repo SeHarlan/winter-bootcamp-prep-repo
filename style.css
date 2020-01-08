@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: lightpink;
+    text-align: center;
+}
+li {
+    color: red;
+    list-style: none;
+}
+
+ul {
+    display: inline;
+    margin-top: 1px;
+}
+
+h2 {
+    text-decoration: wavy;
+}
+.picture {
+    border: solid;
+}
+
+.strange {
+    text-align: center;
+    margin: 1px;
+}
+
+#special {
+    color: green;
+    font-size: 20px;
+
+}
+
+.cool {
+    color: purple;
+}
+
+#cool-square {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    background: red;
+    border-radius: 15px;
+    border: dotted;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
