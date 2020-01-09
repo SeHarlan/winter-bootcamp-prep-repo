@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body {
-    background: lightpink;
+
+    background: linear-gradient(180deg, peachpuff 0%, lightpink 100%);
     text-align: center;
 }
 header {
@@ -13,15 +14,18 @@ header {
 }
 li {
     list-style: none;
-    font-style: italic;
 }
 
 
 h1 {
     text-transform: uppercase;
     color: purple;
-}
+    transition: color 1s ease-in-out;
 
+}
+h2:hover {
+    color: darkblue;
+}
 h2 {
     color: royalblue;
     font-style: italic;
@@ -30,15 +34,11 @@ h2 {
 aside {
     color: rebeccapurple;
     font-style: italic;
+    margin-top: 30px;
 }
 
 .picture {
     border: solid;
-}
-
-.strange {
-    text-align: center;
-
 }
 
 .cool {
@@ -51,7 +51,12 @@ color: purple;
     font-size: 20px;
 
 }
-
+#cool-square:hover {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    cursor: pointer;
+}
 
 #cool-square {
     box-sizing: border-box;
@@ -61,6 +66,8 @@ color: purple;
     border-radius: 15px;
     border: dotted;
     margin: 0 auto;
+    margin-top: 20px;
     padding: 10px;
+    transition: all .5s ease-in-out;
     
 }
